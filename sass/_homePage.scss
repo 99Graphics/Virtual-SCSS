@@ -1,0 +1,314 @@
+
+/***********************VirtualBanner************************/
+.VirtualBanner{
+    padding: 190px 0;
+    position: relative; 
+}
+.VirtualBanner:after{
+    content: '';
+    width: 100%;
+    height: 320px;
+    background: url(../images/bannereffect.png)  no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -86px;
+    left: 0;
+    right: 0;
+}
+.banner_content h1{
+    font-size:48px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner_content p{
+    font-size: 21px;
+    color: #fff;
+}
+
+.btnvirtual a{
+    padding: 10px 30px;
+    display: inline-block;
+    background-image:linear-gradient(to right, #fc4375, #fc5793);
+    border-radius: 999px;
+    color: #fff !important;
+    margin-top:30px;
+    font-size: 18px;
+}
+
+/*****************wraper_solutions***************/
+.wraper_solutions{
+    padding-top: 0;
+}
+.virtual_pic{
+    width: 90%;
+}
+.virtual_content{
+    width: 100%;
+    display: inline-block;
+}
+.virtual_content h2{
+    font-size:45px;
+    color: #3f1046;
+}
+.virtual_content p{
+    font-size:18px;
+    color: #464646;
+    padding:15px 0;
+    padding-bottom: 0;
+}
+.virtual_right_pic{
+    width: 90%;
+    float: right;
+}
+.solution_touch {
+    margin-top: 15px;
+}
+.solution_touch li{
+    color: #464646;
+    font-size: 18px;
+    padding: 8px 0;
+    padding-left: 45px;
+    background-size: 30px !important;
+}
+.solution_touch li:nth-of-type(1){
+    background: url(../images/icon/1.jpg) no-repeat 0px 7px;
+}
+.solution_touch li:nth-of-type(2){
+    background: url(../images/icon/2.jpg) no-repeat 0px 7px;
+}
+.solution_touch li:nth-of-type(3){
+    background: url(../images/icon/3.jpg) no-repeat 0px 7px;
+}
+.solution_touch li:nth-of-type(4){
+    background: url(../images/icon/4.jpg) no-repeat 0px 7px;
+}
+.solution_touch li:nth-of-type(5){
+    background: url(../images/icon/5.jpg) no-repeat 0px 7px;
+}
+
+/*******************wraper_omlineworking****************/
+
+.wraper_omlineworking{
+    width: 100%;
+    background: url(../images/onlineworking_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.title_wroking_onl h2{
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+.online_working{
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+    padding: 50px;
+    padding-top: 0;
+    margin-top: 50px;
+   
+}
+.online_working:before{
+    content: '';
+    width: 100%;
+    height:90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background:#360b3c;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.online_working:after{
+    content: '';
+    width: 100%;
+    height:75%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.icon_working{
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+    background: #fff;
+    border:3px solid #3f1046;
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.icon_working img{
+    width: 100%;
+}
+
+.online_content{
+    position: relative;
+    z-index: 1;
+}
+.online_content h4{
+    font-size: 36px;
+    color: #3f1046;
+}
+.online_content p{
+    font-size: 18px;
+    color: #464646;
+}
+/***********************wraper_companies*****************/
+.wraper_companies .title_wroking_onl h2{
+    text-align: left;
+    color: #3f1046;
+    font-size:42px;
+}
+.companiesLinks{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.companiesLinks:hover{
+    background: url(../images/hoverbg.jpg) no-repeat;
+    background-size: cover;
+}
+.companiesLinks:hover h4,
+.companiesLinks:hover p{
+    color: #fff;
+}
+.companiesLinks h4{
+    font-size:21px;
+    color: #3f1046;
+    padding: 15px 0;
+}
+.companiesLinks p{
+    font-size:18px;
+    color: #464646;
+    padding: 15px 0;
+    padding-top: 0;
+}
+.icon_com{
+    width:65px;
+    margin: auto;
+}
+.workstation li{
+    font-size: 18px;
+    color: #464646;
+    padding: 6px;
+    padding-left: 30px;
+    background: url(../images/icon/done.png) no-repeat 0px 16px;
+    background-size: 15px;
+}
+.workstation{
+    margin: 15px 0;
+}
+/***************Virtual Videos***********************/
+.videos_virtuals{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.videothumbnails{
+    position: relative;
+}
+.playbtn {
+    width: 34%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 32px;
+    margin: auto;
+    cursor: pointer;
+}
+.playbtn img{
+    width: 100%;
+    height: auto !important;
+}
+#yt {
+    display: none;
+}
+.videos_virtuals iframe{
+    width: 100%;
+    height:384px;
+    border-radius: 10px;
+}
+.videothumbnails img{
+    width: 100%;
+    height:384px;
+    border-radius: 10px;
+}
+
+/***************exchange ****************/
+.wraper_exchange {
+    width: 100%;
+    padding-top: 250px;
+    background: url(../images/onlineworking_bg.jpg) no-repeat;
+    background-size: cover;
+    margin-top: -10rem;
+}
+.virtual_exchange h2 {
+    font-size: 45px;
+    color: #fff;
+}
+.virtual_exchange p {
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 0;
+    padding-top: 0;
+}
+/************wraper_testimonials****************/
+.wraper_testimonials .title_wroking_onl h2{
+    color: #3f1046;
+}
+.testimonials{
+    margin-top: 50px;
+    text-align: center;
+}
+.pic-user img{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 999px;
+    margin: auto;
+}
+.test_content h4{
+    color: #fb4d84;
+    font-size: 24px;
+}
+.test_content{
+    padding: 50px;
+    position: relative;
+}
+.test_content:after{
+    content: '\f10d';
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: #fb4d84;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top:50px;
+}
+.test_content:before{
+    content: '\f10e';
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: #fb4d84;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.test_content p{
+    color: #464646;
+    font-size:18px;
+}
+.redclr{
+    color: #fb4d84;
+}
